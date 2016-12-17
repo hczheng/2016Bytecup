@@ -272,29 +272,3 @@ if __name__ == '__main__':
 else :
      print("this is not the main function")
      
-#if __name__ == '__main__': 
-#     data = []
-#     M = 7
-#     key = 1
-#     seed = 1
-#     N = 10
-#     K = 10
-#     W = dict()
-#     rank = dict()
-#
-#     print("this is the main function")
-#     file = open('./data/sim.csv')
-#     ReadData(file,data)
-#     train,test = SplitData(data, M, key, seed)
-#     W = ItemSimilarity(train)
-#     
-#     recall = Recall(train, test, W, N, K)
-#     precision = Precision(train, test, W, N, K)
-#     popularity = Popularity(train, test, W, N, K)
-#     coverage = Coverage(train, test, W, N, K)
-#     print 'recall: ',recall,'\n'
-#     print 'precision: ',precision,'\n'
-#     print 'Popularity: ',popularity,'\n'
-#     print 'coverage: ', coverage,'\n'
-#else :
-#     print("this is not the main function")

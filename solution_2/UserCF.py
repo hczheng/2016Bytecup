@@ -1,12 +1,8 @@
-#!/usr/bin/python 
 # -*- coding: utf-8 -*-
-
-'''
- @desc   基于用户的协同过滤算法,方法为User-IIF
- @author cheng.cheng
- @email  cc@iamcc.me
- @date   2012-06-18
-'''
+"""
+Created on Sat Oct 11 11:37:13 2016
+By 我曾经被山河大海跨过
+"""
 import sys
 import random
 import math
